@@ -1,0 +1,50 @@
+# Diretório de ambientes virtuais
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Arquivos e diretórios gerados pelo compilador
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Configurações de IDEs (PyCharm, VSCode, etc.)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de logs e caches
+*.log
+*.pot
+*.mo
+*.cache
+*.coverage
+coverage/
+.cache/
+
+# Arquivos e diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de pacotes e distribuições
+dist/
+build/
+*.egg-info/
+
+# Arquivos de banco de dados SQLite
+*.sqlite3
+*.db
+
+# Arquivos de configuração de credenciais ou variáveis de ambiente
+.env
+.env.*
+
+# Arquivos temporários ou de backup
+*.swp
+*.bak
+*.tmp
+*~
